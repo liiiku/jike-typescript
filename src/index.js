@@ -1,5 +1,5 @@
 "use strict";
-exports.__esModule = true;
+Object.defineProperty(exports, "__esModule", { value: true });
 // import './datatype'
 // import './enum'
 // import './interface'
@@ -9,6 +9,6 @@ exports.__esModule = true;
 // import './es6/c'
 // import './node/c.node'
 // import './merge/merge'
-require("./libs/index");
+// require("./libs/index");
 var hello = 'hello Typescript!';
 document.querySelectorAll('.app')[0].innerHTML = hello;
