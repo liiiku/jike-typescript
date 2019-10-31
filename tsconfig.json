@@ -6,7 +6,7 @@
     // "lib": [],                             /* Specify library files to be included in the compilation. */
     // "allowJs": true,                       /* Allow javascript files to be compiled. */
     // "checkJs": true,                       /* Report errors in .js files. */
-    // "jsx": "preserve",                     /* Specify JSX code generation: 'preserve', 'react-native', or 'react'. */
+    "jsx": "react", // preserve: 生成的代码会保留jsx格式，文件的扩展名就是jsx    react-native： 生成的代码还是jsx，但是文件的扩展名是js    react： 生成的代码不会保留jsx，而是纯js      /* Specify JSX code generation: 'preserve', 'react-native', or 'react'. */
     // "declaration": true,                   /* Generates corresponding '.d.ts' file. */
     // "declarationMap": true,                /* Generates a sourcemap for each corresponding '.d.ts' file. */
     // "sourceMap": true,                     /* Generates corresponding '.map' file. */
